@@ -47,7 +47,7 @@ cd $HTMLDIR
 for file in *.$seaf; # do ./loopcycle; done
 do
  # convert all .seaf files to .PDF
-soffice --headless --convert-to "PDF" --outdir $PDFDIR $file
+soffice --headless --convert-to pdf:"writer_web_pdf_Export" --outdir $PDFDIR $file
 done
 
 
