@@ -21,7 +21,7 @@ echo Hello `whoami`!
 seaf=seaf
 html=html
 
-# vcf files directory
+# text files directory
 HTMLDIR=~/DIR/TRANSCRIPTION
 PDFDIR=~/DIR/PDF
 ODTDIR=~/DIR/ODT
